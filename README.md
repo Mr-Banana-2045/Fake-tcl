@@ -4,7 +4,7 @@
 ## Open Library
 source "lib.tcl"
 
-## inpus
+## inputs
 * user
 * name
 * family
