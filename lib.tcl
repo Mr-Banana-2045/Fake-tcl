@@ -68,3 +68,8 @@ proc email {} {
     set randem [expr {int(rand() * [llength $emails])}]
     set ol [lindex $emails $randem]
 }
+proc system {} {
+    set syss {"Windows/10" "Linux/kali" "Android/huawei" "Windows/11" "Android/redmi" "Android/samsung" "Linux/ubuntu" "Windows/7" "Android/apple" "Linux/debian"}
+    set randsys [expr {int(rand() * [llength $syss])}]
+    set xoc [lindex $syss $randsys]
+}
