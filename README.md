@@ -22,3 +22,7 @@ source "lib.tcl"
 <pre>
 puts "name [name]"
 </pre>
+## Run Script
+-$ git clone https://github.com/Mr-Banana-2045/Fake-tcl
+-$ cd Fake-tcl
+-$ tclsh Test.tcl
